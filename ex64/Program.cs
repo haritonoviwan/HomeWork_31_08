@@ -5,8 +5,8 @@
 
 Console.Clear();
 Console.Write("Введите целое число: ");
-int N = int.Parse(Console.ReadLine() ?? "");
-string numbers = NaturalNumbers(N, 1);
+int num = int.Parse(Console.ReadLine() ?? "");
+string numbers = NaturalNumbers(num, 1);
 Console.WriteLine(numbers);
 
 string NaturalNumbers(int n, int end)
